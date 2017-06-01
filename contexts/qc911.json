@@ -1,0 +1,75 @@
+{
+  "uri": "qc911",
+  "title": "Qc-911",
+  "map": {
+    "view": {
+      "projection": "EPSG:3857",
+      "center": [-72, 52],
+      "zoom": 6
+    }
+  },
+  "layers": [
+    {
+    "name":"carte_gouv_qc_ro",
+    "type":"wmts",
+     "source":{
+        "url":"/cgi-wms/mapcache.fcgi/wmts",
+ 	 "matrixSet":"EPSG_3857", 
+	"format":"image/jpeg", 
+	"layer":"carte_gouv_qc_ro"
+        }
+    },
+    {
+      "title": "Téléphone d'urgence",
+      "type": "wms",
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "telephone_urg",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Desserte municipale 9-1-1",
+      "type": "wms",
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_DESSERTE_MUN_911",
+          "version": "1.3.0"
+        }
+      },
+      "queryFormat": "gml2",
+      "queryTitle": "Municipalite"
+    }
+  ],
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "timeAnalysis",
+    "print"
+  ],
+  "tools": [
+    {
+      "name": "searchResults"
+    },
+    {
+      "name": "contextManager"
+    },
+    {
+      "name": "mapDetails",
+      "options": {
+        "toggleLegendOnVisibilityChange": false
+      }
+    },
+    {
+      "name": "timeAnalysis"
+    },
+    {
+      "name": "print"
+    }
+
+  ]
+}

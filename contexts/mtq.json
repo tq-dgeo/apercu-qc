@@ -1,0 +1,70 @@
+{
+  "uri": "mtq",
+  "title": "Transports",
+  "map": {
+    "view": {
+      "projection": "EPSG:3857",
+      "center": [-72, 52],
+      "zoom": 6
+    }
+  },
+  "layers": [
+    {
+      "title": "Fond de carte du gouvernement du Qc",
+      "type": "xyz",
+      "source": {
+        "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
+      }
+    },
+    {
+      "title": "Débits de circulation - Transports Québec",
+      "type": "wms",
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "circulation_routier",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Villages-relais par Transports Québec",
+      "type": "wms",
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MTQ_RELAIS",
+          "version": "1.3.0"
+        }
+      }
+    }
+  ],
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "timeAnalysis",
+    "print"
+  ],
+  "tools": [
+    {
+      "name": "searchResults"
+    },
+    {
+      "name": "contextManager"
+    },
+    {
+      "name": "mapDetails",
+      "options": {
+        "toggleLegendOnVisibilityChange": false
+      }
+    },
+    {
+      "name": "timeAnalysis"
+    },
+    {
+      "name": "print"
+    }
+
+  ]
+}

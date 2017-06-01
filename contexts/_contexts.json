@@ -1,0 +1,38 @@
+[
+  {
+    "uri": "_default",
+    "title": "Default Context"
+  },
+  {
+    "uri": "inondation",
+    "title": "Inondations 2017"
+  },
+  {
+    "uri": "qc911",
+    "title": "Qc-911"
+  },
+  {
+    "uri": "embacle",
+    "title": "Embâcle (analyse temporelle)"
+  },
+  {
+    "uri": "mtq",
+    "title": "Transports"
+  },
+  {
+    "uri": "donneesqc",
+    "title": "Données Québec"
+  },
+  {
+    "uri": "mffp",
+    "title": "Forêts"
+  },
+  {
+    "uri": "inspq",
+    "title": "Santé publique"
+  },
+  {
+    "uri": "cptaq",
+    "title": "Agriculture"
+  }
+]
