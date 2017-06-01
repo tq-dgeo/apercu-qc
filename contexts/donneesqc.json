@@ -1,6 +1,6 @@
 {
   "uri": "donneesqc",
-  "title": "Données Québec",
+  "title": "Liste complète",
   "map": {
     "view": {
       "projection": "EPSG:3857",
@@ -17,8 +17,1005 @@
       }
     },
     {
-      "title": "Feu de forêt 1994-2007 - Point d'origine",
+      "title": "Desserte 9-1-1 (couverture cellulaire)",
       "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_DESSERTE_MUN_911",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Site patrimonial national",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_SITE_PATRIMONIAL_NATIONAL_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Sites patrimoniaux déclarés",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_SITE_PATRIMONIAL_DECLARE_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Sites patrimoniaux classés",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_SITE_PATRIMONIAL_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Sites patrimoniaux cités",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_SITE_PATRIMONIAL_CITE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Immeubles patrimoniaux classés - terrain protégé",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_IP_TERRAIN_PROTEGE_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Immeubles patrimoniaux classés",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_IP_TERRAIN_NON_PROTEGE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Immeubles patrimoniaux cités",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MCC_V_IP_CITE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Stations hydrométriques - Seuil de conséquence (public)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "adn_station_max_public_v",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Bassin versant à surveiller (public)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "adn_bassin_n1_public_v",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Échelles limnimétriques",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "msp_echelle_limnimetrique",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couche publique des historiques d'embâcle répertorié au MSP",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_v_inondation_embacle_wmst",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Historique des événements de sécurité civile (Archives)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_v_autre_wmst",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Municipalité touchées par les inondations du printemps 2017 (selon les événements rapports au COG)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_inondation_23avril2017_mun_tout_v",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (6 mai 2017 - Lac des Deux Montagnes)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_6MAI2017_DEUXMONTAGNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (6 mai 2017 - Lac Saint-Pierre)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_6MAI2017_STPIERRE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (7 mai 2017 - GATINEAU)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_7MAI2017_GATINEAU",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (9 mai 2017 - GATINEAU)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_9MAI2017_GATINEAU_UNION",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (9 mai 2017 - Lac des Deux Montagnes)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_9MAI2017_DEUXMONTAGNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (11 mai 2017 - Lac St-Pierre)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_11MAI2017_STPIERRE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (13 mai 2017 - Lac des Deux Montagnes)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_13MAI2017_DEUXMONTAGNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone (21 mai 2017 - Lac des Deux Montagnes) d'eau libre selon traitement RNCAN avec Radarsat-2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_21MAI2017_DEUXMONTAGNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone d'eau libre selon traitement RNCAN avec Radarsat-2 (13 mai 2017 - Lac St-Pierre)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_13MAI2017_STPIERRE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone (17 mai 2017 - Lac St-Pierre) d'eau libre selon traitement RNCAN avec Radarsat-2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_17MAI2017_STPIERRE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zone (20 mai 2017 - Lac St-Pierre) d'eau libre selon traitement RNCAN avec Radarsat-2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INONDATION_20MAI2017_STPIERRE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Historique des événements d'inondation depuis 23 avril 2017",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_v_inondation23avril2017_wmst",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Historique des événements de sécurité civile (Archives)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_glissement_23avril2017_tout_v",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Entrave routière (Québec-511)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MTQ_511_L",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Point d'entrave routière (Québec-511)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MTQ_511_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Déferlement de vagues",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "msp_vague_dec2010_lcc_l",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1A après l'incident  Lac-Mégantic - 4 Novembre 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20131104",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic -  13 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130713",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic -  29 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130729",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1A après l'incident  Lac-Mégantic -  2 août 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130802",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic -  15 août 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130815",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic - 24 août 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130824",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1A après l'incident  Lac-Mégantic - 6 septembre 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130906",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic - 17 septembre 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130917",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B après l'incident  Lac-Mégantic -  30 septembre 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20130930",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Lac-Mégantic Image USGS - 7 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_USGS",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Aéro-Photo après l'incident Lac-Mégantic - 10 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_AEROPHOTO",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Lac-Mégantic - Périmètre vert (inactif) de l'accident de train du 6 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PERI_VERT",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Lac-Mégantic - Périmètre jaune (actif) de l'accident de train du 6 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PERI_JAUNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Lac-Mégantic - Périmètre rouge (inactif) de l'accident de train du 6 juillet 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PERI_ROUGE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B Lac-Mégantic - 2 juillet 2014",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20140702",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B Lac-Mégantic - 12 octobre 2014",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20141012",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B Lac-Mégantic - 3 novembre 2014",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20141103",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades-1B Lac-Mégantic - 19 octobre 2015",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20151019",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Pleiades Lac-Mégantic - 24 avril 2016",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_PLEIADES20160424",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Image Kompsat Lac-Mégantic - 5 mai 2017",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MEGANTIC_KOMSAT_20170504",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Bureaux de la Direction régionale du MSP",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_DIRECTION_REG_COG_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Limites territoriales (MSP)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_DIRECTION_REG_COG_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Organismes de sauvetage",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ORG_SAUVETAGE_GEO_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images - Digital Globe 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_DGLOBE_SELECT_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images - Quick-Bird 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_DGLOBE_QB2_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images WorldView-1 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_DGLOBE_WV1_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images WorldView-2 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_DGLOBE_WV2_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images GeoEye-1 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_GE1_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couvertures d'images IKONOS 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_IKO_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images - Sélection GeoEye 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_GEOEYE_SELECT_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images Pléiades 1A 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_PLEIADES_SELECT_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images SPOT-5 j2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_SPOT5_SELECT_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images RapidEye 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_RAPIDEYE_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Couverture d'images RADARSAT-2 2009 à 2013",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MSP_ASC_INDEX_R2_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Incendie - Caserne de pompiers",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "CASERNE",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Bornes d'incendie (Rimouski)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "BORNES_RIMOUSKI",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "District SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_DISTRICT_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Poste autoroutier SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_POSTE_L",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Postes de police SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_POSTE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Région SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_REGION_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Région linéaire SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_REGION_L",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Poste principal SQ",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_POSTE_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Postes auxilière",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SQ_LADPQ_20K_POSTA_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170227_CHAUDIERE_4",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170227_CHAUDIERE_4",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170227_CHAUDIERE_3",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170227_CHAUDIERE_3",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170227_CHAUDIERE_2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170227_CHAUDIERE_2",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170227_CHAUDIERE_1",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170227_CHAUDIERE_1",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170207_CHAUDIERE_3",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170207_CHAUDIERE_3",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170207_CHAUDIERE_2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170207_CHAUDIERE_2",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170207_CHAUDIERE_1",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170207_CHAUDIERE_1",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170107_CHAUDIERE_2",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170107_CHAUDIERE_2",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170107_CHAUDIERE_1",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170107_CHAUDIERE_1",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "20170107_CHAUDIERE_VALIDATION",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "20170107_CHAUDIERE_VALIDATION",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "1994-2007 - Point d'origine",
+      "type": "wms",
+      "visible": false,
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -28,12 +1025,409 @@
       }
     },
     {
-      "title": "MSP 911",
+      "title": "1994-2007 - Contour",
       "type": "wms",
+      "visible": false,
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
-          "layers": "MSP_DESSERTE_MUN_911,telephone_urg",
+          "layers": "MRN_FEUX_CONTOUR_1994_2007_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "1972-1993 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_1972_1993_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "1972-1993 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_1972_1993_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2015 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2015_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2015 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2015_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2014 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2014_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2014 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2014_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2013 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2013_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2013 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2013_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2012 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2012_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2012 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2012_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2011 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2011_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2011 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2011_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2010 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2010_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2010 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2010_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2009 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2009_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2009 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2009_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2008 - Point d'origine",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_POINT_2008_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "2008 - Contour",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MRN_FEUX_CONTOUR_2008_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Réseau de camionnage - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "camionnage_reseau_superieur",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissements de Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "etablissement_mtq",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Structures sur le réseau routier - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "gsq_v_desc_strct_tri",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Ports - Liaisons maritimes du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "liaison_maritime",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Ports - Installations du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "port_installation",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Parcs routiers - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "parc_routier",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Réseau ferroviaire du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "reseau_chfer_qc",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Sorties d'autoroutes - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "sortie_aut",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zones de dégel - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "zones_degel",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Villages-relais par Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MTQ_RELAIS",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Repères kilométriques - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "repere_km",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Aéroports - Pistes du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "aeroport_piste",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zones potentiellement exposées aux glissements de terrain (ZPEGT)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "cgt_mtq",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Lieux habités du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "lieuhabite",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Aéroports - Aérogares du Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "Aeroport-Aerogare",
           "version": "1.3.0"
         }
       }
@@ -41,6 +1435,7 @@
     {
       "title": "Débits de circulation - Transports Québec",
       "type": "wms",
+      "visible": false,
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -50,23 +1445,265 @@
       }
     },
     {
-      "title": "Embâcle",
+      "title": "Convivialité des routes pour les cyclistes - Transports Québec",
       "type": "wms",
+      "visible": false,
       "source": {
-        "url": "/ws/interne_igo_gouvouvert.fcgi",
+        "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
-          "layers": "vg_observation_v_inondation_embacle_wmst",
+          "layers": "convi_velo_glv",
           "version": "1.3.0"
         }
       }
     },
     {
-      "title": "Villages-relais par Transports Québec",
+      "title": "Limite des centres de service - Transports Québec",
       "type": "wms",
+      "visible": false,
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
-          "layers": "MTQ_RELAIS",
+          "layers": "bgr_v_centr_servc_geomt_act",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Direction territoriale - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "bgr_v_dirct_terrt_geomt_act",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Direction générale - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "bgr_v_dirct_genrl_geomt_act",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Système de référence linéaire - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "bgr_v_sous_route_res_sup_act",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Téléphones de secours - Transports Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "telephone_urg",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissement scolaire collégial",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_SCOL_COLLEGIAL_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissement scolaire gouvernemental",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_GOUVERNEMENTAL_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissement scolaire privé (préscolaire, primaire et secondaire)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_PPS_PRIVE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissement scolaire public (préscolaire, primaire et secondaire)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_PPS_PUBLIC_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Établissement scolaire universitaire",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_SCOL_UNIVERSITAIRE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Immeubles du MELS",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_PUBLIC_IMMEUBLE_P",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Commissions scolaires anglophones",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_ANGLO_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Commissions scolaires francophones",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_FRANCO_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Commissions scolaires à statuts particuliers",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_PARTICULIER_S",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Température de surface",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "inspq_temperature_surface",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Ilots de chaleur urbains",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "inspq_ilot_chaleur",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Ilots de fraicheur urbains",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "inspq_ilot_fraicheur",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Zonage agricole (CPTAQ)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "ZonageAgricole",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Inclusion et exclusion (CPTAQ)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "incl_excl",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Polygone de décision (CPTAQ)",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "decision",
+          "version": "1.3.0"
+        }
+      }
+    },
+    {
+      "title": "Canopée de la ville de Québec",
+      "type": "wms",
+      "visible": false,
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "VILLE_DE_QUEBEC_CANOPE_S",
           "version": "1.3.0"
         }
       }

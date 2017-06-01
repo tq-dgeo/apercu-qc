@@ -1,7 +1,11 @@
 [
   {
     "uri": "_default",
-    "title": "Default Context"
+    "title": "En vedette"
+  },  
+  {
+    "uri": "donneesqc",
+    "title": "Liste complète"
   },
   {
     "uri": "inondation",
@@ -18,21 +22,5 @@
   {
     "uri": "mtq",
     "title": "Transports"
-  },
-  {
-    "uri": "donneesqc",
-    "title": "Données Québec"
-  },
-  {
-    "uri": "mffp",
-    "title": "Forêts"
-  },
-  {
-    "uri": "inspq",
-    "title": "Santé publique"
-  },
-  {
-    "uri": "cptaq",
-    "title": "Agriculture"
   }
 ]
