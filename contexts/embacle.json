@@ -33,6 +33,10 @@
     {
       "title": "Embâcle (temporelle)",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {

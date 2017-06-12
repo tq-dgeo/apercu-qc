@@ -19,6 +19,10 @@
     {
       "title": "Zonage agricole (CPTAQ)",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {

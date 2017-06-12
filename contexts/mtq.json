@@ -19,6 +19,10 @@
     {
       "title": "Débits de circulation - Transports Québec",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -30,6 +34,10 @@
     {
       "title": "Villages-relais par Transports Québec",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {

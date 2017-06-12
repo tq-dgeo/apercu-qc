@@ -11,9 +11,10 @@
   "layers": [
     {
     "name":"carte_gouv_qc_ro",
+    "title": "Fond de carte du gouvernement du Qc",
     "type":"wmts",
      "source":{
-        "url":"/cgi-wms/mapcache.fcgi/wmts",
+        "url":"/carto/wmts",
  	 "matrixSet":"EPSG_3857", 
 	"format":"image/jpeg", 
 	"layer":"carte_gouv_qc_ro"
@@ -22,6 +23,10 @@
     {
       "title": "Téléphone d'urgence",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -33,6 +38,10 @@
     {
       "title": "Desserte municipale 9-1-1",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {

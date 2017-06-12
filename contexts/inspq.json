@@ -19,6 +19,10 @@
     {
       "title": "Ilot de chaleur",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -30,6 +34,10 @@
     {
       "title": "Ilot de fraicheur",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -41,6 +49,10 @@
     {
       "title": "Température de surface",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {

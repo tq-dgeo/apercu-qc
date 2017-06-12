@@ -19,6 +19,10 @@
    {
       "title": "Polygone (Deux-Montagnes) d'eau libre 13 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -30,6 +34,10 @@
    {
       "title": "Polygone (Deux-Montagnes) d'eau libre 9 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -41,6 +49,10 @@
    {
       "title": "Polygone (Lac St-Pierre) d'eau libre 9 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -52,6 +64,10 @@
    {
       "title": "Polygone (Lac St-Pierre) d'eau libre 13 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -63,6 +79,10 @@
    {
       "title": "Polygone (Gatineau) d'eau libre 7 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
@@ -74,6 +94,10 @@
    {
       "title": "Polygone (Gatineau) d'eau libre 9 mai",
       "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
