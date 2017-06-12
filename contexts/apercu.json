@@ -1,0 +1,47 @@
+{
+  "uri": "apercu",
+  "title": "Aperçu",
+  "map": {
+    "view": {
+      "projection": "EPSG:3857",
+      "center": [-71.811360, 47.560696],
+      "zoom": 7
+    }
+    },
+    "layers": [
+      {
+        "title": "Fond de carte du gouvernement du Qc",
+        "type": "xyz",
+        "source": {
+          "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png"
+        }
+      }
+  ],
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "timeAnalysis",
+    "print"
+  ],
+  "tools": [
+    {
+      "name": "searchResults"
+    },
+    {
+      "name": "contextManager"
+    },
+    {
+      "name": "mapDetails",
+      "options": {
+        "toggleLegendOnVisibilityChange": false
+      }
+    },
+    {
+      "name": "timeAnalysis"
+    },
+    {
+      "name": "print"
+    }
+  ]
+}

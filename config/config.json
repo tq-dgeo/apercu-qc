@@ -1,0 +1,15 @@
+{
+
+	"searchSources": {
+      		"nominatim": {
+        	"enabled": false
+		},
+	"icherche": {
+        "url": "/icherche/geopasdecode"
+      },
+      "datasource": {
+        "url": "/igo2/api/layers/search"
+	}
+}	
+
+}
