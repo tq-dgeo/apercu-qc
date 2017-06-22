@@ -1,6 +1,10 @@
 [
   {
     "uri": "_default",
+    "title": "Contexte de départ"
+  },
+  {
+    "uri": "apercu",
     "title": "En vedette"
   },  
   {
@@ -22,9 +26,5 @@
   {
     "uri": "mtq",
     "title": "Transports"
-  },
-  {
-    "uri": "apercu",
-    "title": "Aperçu"
   }
 ]

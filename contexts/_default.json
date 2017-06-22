@@ -1,11 +1,11 @@
 {
   "uri": "_default",
-  "title": "Inondation - mai 2017",
+  "title": "Contexte de départ",
   "map": {
     "view": {
       "projection": "EPSG:3857",
-      "center": [-74.066644, 45.544253],
-      "zoom": 10
+      "center": [-71.811360, 47.560696],
+      "zoom": 7
     }
     },
     "layers": [

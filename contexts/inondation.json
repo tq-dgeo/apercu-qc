@@ -4,50 +4,20 @@
   "map": {
     "view": {
       "projection": "EPSG:3857",
-      "center": [-74.066644, 45.544253],
-      "zoom": 10
+      "center": [-74.066644, 45.844253],
+      "zoom": 9
     }
     },
     "layers": [{
       "title": "Fond de carte du gouvernement du Qc",
       "type": "xyz",
       "source": {
-        "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png",
+        "url": "/carto/tms/1.0.0/carte_gouv_qc_public@EPSG_3857/{z}/{x}/{-y}.png",
           "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a>"
       }
     },
-    {
-      "title": "Municipalité inondées (printemps 2017)",
-      "type": "wms",
-      "optionsFromCapabilities": true,
-      "metadata": {
-          "extern": true
-      },
-      "source": {
-        "url": "/ws/igo_gouvouvert.fcgi",
-        "params": {
-          "layers": "vg_observation_inondation_23avril2017_mun_tout_v",
-          "version": "1.3.0"
-        }
-    }
-    },
    {
-      "title": "Polygone (Deux-Montagnes) d'eau libre 13 mai",
-      "type": "wms",
-      "optionsFromCapabilities": true,
-      "metadata": {
-          "extern": true
-      },
-      "source": {
-        "url": "/ws/igo_gouvouvert.fcgi",
-        "params": {
-          "layers": "INONDATION_13MAI2017_DEUXMONTAGNE",
-          "version": "1.3.0"
-        }
-      }
-      },
-   {
-      "title": "Polygone (Deux-Montagnes) d'eau libre 9 mai",
+      "title": "9 mai (Deux-Montagnes) polygone d'eau libre ",
       "type": "wms",
       "optionsFromCapabilities": true,
       "metadata": {
@@ -62,7 +32,7 @@
       }
       },
    {
-      "title": "Polygone (Lac St-Pierre) d'eau libre 9 mai",
+      "title": "6 mai (Lac St-Pierre) polygone d'eau libre",
       "type": "wms",
       "optionsFromCapabilities": true,
       "metadata": {
@@ -71,28 +41,13 @@
       "source": {
         "url": "/ws/igo_gouvouvert.fcgi",
         "params": {
-          "layers": "INONDATION_9MAI2017_GATINEAU",
+          "layers": "INONDATION_6MAI2017_STPIERRE",
           "version": "1.3.0"
         }
       }
       },
-   {
-      "title": "Polygone (Lac St-Pierre) d'eau libre 13 mai",
-      "type": "wms",
-      "optionsFromCapabilities": true,
-      "metadata": {
-          "extern": true
-      },
-      "source": {
-        "url": "/ws/igo_gouvouvert.fcgi",
-        "params": {
-          "layers": "INONDATION_13MAI2017_STPIERRE",
-          "version": "1.3.0"
-        }
-      }
-      },
-   {
-      "title": "Polygone (Gatineau) d'eau libre 7 mai",
+     {
+      "title": "7 mai (Gatineau) polygone d'eau libre",
       "type": "wms",
       "optionsFromCapabilities": true,
       "metadata": {
@@ -106,22 +61,7 @@
         }
       }
       },
-   {
-      "title": "Polygone (Gatineau) d'eau libre 9 mai",
-      "type": "wms",
-      "optionsFromCapabilities": true,
-      "metadata": {
-          "extern": true
-      },
-      "source": {
-        "url": "/ws/igo_gouvouvert.fcgi",
-        "params": {
-          "layers": "INONDATION_9MAI2017_GATINEAU_UNION",
-          "version": "1.3.0"
-        }
-      }
-      },
-   {
+       {
       "title": "Événements depuis 15 avril 2017",
       "type": "wms",
       "optionsFromCapabilities": true,
@@ -141,7 +81,37 @@
         "range": true,
         "type": "datetime"
       }
+    },
+    {
+      "title": "Municipalité inondées (printemps 2017)",
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "vg_observation_inondation_23avril2017_mun_tout_v",
+          "version": "1.3.0"
+        }
     }
+    },
+    {
+      "title": "Point d'entrave routière (Québec-511)",
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MTQ_511_P",
+          "version": "1.3.0"
+        }
+      }
+      }
   ],
   "toolbar": [
     "searchResults",
