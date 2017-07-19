@@ -18,6 +18,62 @@
       }
     },
    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "PLEIADE_GATINEAU_10MAI_IMAGERIE_VIS",
+          "version": "1.3.0"
+        }
+      }
+      },
+   {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SPOT6_LAC_STPIERRE_IMAGERIE_VIS",
+          "version": "1.3.0"
+        }
+      }
+      },
+   {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "SPOT6_ARCHIPEL_OUEST_IMAGERIE_16MAI",
+          "version": "1.3.0"
+        }
+      }
+      },
+   {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "PLEIADE_RIGAUD_12MAI_IMAGERIE_VIS",
+          "version": "1.3.0"
+        }
+      }
+      },
+   {
       "title": "9 mai (Deux-Montagnes) polygone d'eau libre ",
       "type": "wms",
       "optionsFromCapabilities": true,
