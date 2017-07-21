@@ -1,6 +1,6 @@
 {
   "uri": "donneesqc",
-  "title": "Liste complète",
+  "title": "Toutes les données",
   "map": {
     "view": {
       "projection": "EPSG:3857",
@@ -2283,13 +2283,16 @@
   ],
   "tools": [
     {
-      "name": "searchResults"
+      "name": "searchResults",
+      "title": "Recherche"
     },
     {
-      "name": "contextManager"
+      "name": "contextManager",
+      "title": "Vues"
     },
     {
       "name": "mapDetails",
+      "title": "Couches",
       "options": {
         "toggleLegendOnVisibilityChange": false
       }
