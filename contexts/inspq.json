@@ -5,7 +5,8 @@
     "view": {
       "projection": "EPSG:3857",
       "center": [-73, 47],
-      "zoom": 9
+      "zoom": 9,
+      "geolocate": true
     }
   },
   "layers": [
