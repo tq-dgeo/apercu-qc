@@ -21,6 +21,7 @@
       "title": "Débits de circulation - Transports Québec",
       "type": "wms",
       "optionsFromCapabilities": true,
+      "visible": false,
       "metadata": {
           "extern": true
       },
@@ -36,6 +37,7 @@
       "title": "Villages-relais par Transports Québec",
       "type": "wms",
       "optionsFromCapabilities": true,
+      "visible": false,
       "metadata": {
           "extern": true
       },
@@ -46,7 +48,45 @@
           "version": "1.3.0"
         }
       }
-    }
+    },
+    {
+      "title": "Archives - Stations météoroutière",
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "visible": false,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "histo_stations_meteoroutieres",
+          "version": "1.3.0",
+          "FEATURE_COUNT":"3650"
+        }
+      },
+      "queryFormat": "json",
+      "queryTitle": "Stations météoroutières, années précédentes"
+     },
+     {
+       "title": "Hiver 2017-2018 : Stations météoroutière",
+       "type": "wms",
+       "optionsFromCapabilities": true,
+      "visible": false,
+       "metadata": {
+           "extern": true
+       },
+       "source": {
+         "url": "/ws/igo_gouvouvert.fcgi",
+         "params": {
+           "layers": "stations_meteoroutieres",
+           "version": "1.3.0",
+           "FEATURE_COUNT":"365"
+         }
+       },
+       "queryFormat": "json",
+       "queryTitle": "Stations météoroutières"
+      }
   ],
   "toolbar": [
     "searchResults",
