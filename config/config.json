@@ -11,6 +11,23 @@
     }
   },
   "language": {
-    "prefix": "./assemblage/assets/locale/"
-  }
+    "prefix": "./assets/locale/"
+  },
+    "catalog": {
+	"sources": [{
+	    "title": "Toutes les données",
+	    "url": "/ws/igo_gouvouvert.fcgi"
+  	},
+        {
+	    "title": "Inventaire forestier",
+	    "url": "/ws/mffpecofor.fcgi"
+  	},
+        {
+	    "title": "Carte de glace",
+	    "url": "/ws/radarsat.fcgi"
+  	}
+
+
+]
+   }
 }

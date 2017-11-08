@@ -46,11 +46,14 @@
         }
       },
       "timeFilter": {
-        "min": "2012-01-01",
-        "max": "2018-01-01",
-        "range": true,
-        "type": "datetime"
-      }
+	"min": "2011-01-01",
+	"max": "2018-01-01",
+	"range": true,
+	"type": "date",
+	"style": "slider",
+	"timeinterval": 31536000000,
+	"step": 31536000000
+	} 
     }
   ],
   "toolbar": [
@@ -58,6 +61,7 @@
     "contextManager",
     "mapDetails",
     "timeAnalysis",
+    "catalog",
     "print"
   ],
   "tools": [
@@ -78,6 +82,14 @@
     },
     {
       "name": "timeAnalysis"
+    },    
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
     },
     {
       "name": "print"

@@ -175,6 +175,7 @@
     "contextManager",
     "mapDetails",
     "timeAnalysis",
+    "catalog",
     "print"
   ],
   "tools": [
@@ -195,6 +196,14 @@
     },
     {
       "name": "timeAnalysis"
+    },    
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
     },
     {
       "name": "print"

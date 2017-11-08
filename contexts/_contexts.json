@@ -6,10 +6,6 @@
   {
     "uri": "apercu",
     "title": "Données en vedette"
-  },  
-  {
-    "uri": "donneesqc",
-    "title": "Toutes les données"
   },
   {
     "uri": "inondation",
@@ -26,6 +22,10 @@
   {
     "uri": "embacle",
     "title": "Embâcle (analyse temporelle)"
+  },
+  {
+    "uri": "education",
+    "title": "Éducation"
   },
   {
     "uri": "mtq",
