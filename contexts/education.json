@@ -1,0 +1,213 @@
+{
+  "uri": "education",
+  "title": "Fond de carte",
+  "map": {
+    "view": {
+      "projection": "EPSG:3857",
+      "center": [-73, 47],
+      "zoom": 9,
+      "maxZoom": 17,
+      "geolocate": true
+    }
+    },
+    "layers": [
+      {
+        "title": "Fond de carte du gouvernement du Qc",
+        "type": "xyz",
+	"opacity":0.3,
+        "source": {
+          "url": "/carto/tms/1.0.0/carte_gouv_qc_public@EPSG_3857/{z}/{x}/{-y}.png",
+          "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a> /  Fondé sur<a href='https://github.com/infra-geo-ouverte/igo2'> IGO2</a>"
+        }
+      },
+    {
+      "type": "wms",
+      "visible": false,
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_ANGLO_S",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "visible": true,
+	"opacity":0.7,
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_FRANCO_S",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "visible": true,
+	"opacity":0.3,
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_CS_PARTICULIER_S",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },{
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_SCOL_UNIVERSITAIRE_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "MELS_SCOL_COLLEGIAL_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_GOUVERNEMENTAL_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_PPS_PRIVE_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_PPS_PUBLIC_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    },
+    {
+      "type": "wms",
+      "optionsFromCapabilities": true,
+      "metadata": {
+          "extern": true
+      },
+      "source": {
+        "url": "/ws/igo_gouvouvert.fcgi",
+        "params": {
+          "layers": "INFRA_SCOL_PPS_PUBLIC_P",
+          "version": "1.3.0"
+        }
+      },
+       "queryFormat": "html",
+       "queryHtmlTarget": "innerhtml"
+    }
+
+
+  ],
+  "toolbar": [
+    "searchResults",
+    "contextManager",
+    "mapDetails",
+    "timeAnalysis",
+    "catalog",
+    "print"
+  ],
+  "tools": [
+    {
+      "name": "searchResults",
+      "title": "Recherche"
+    },
+    {
+      "name": "contextManager",
+      "title": "Vues"
+    },
+    {
+      "name": "mapDetails",
+      "title": "Couches",
+      "options": {
+        "toggleLegendOnVisibilityChange": false
+      }
+    },
+    {
+      "name": "timeAnalysis"
+    },    
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
+    },
+    {
+      "name": "print"
+    }
+  ]
+}
