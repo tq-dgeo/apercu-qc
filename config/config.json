@@ -25,6 +25,14 @@
         {
 	    "title": "Carte de glace",
 	    "url": "/ws/radarsat.fcgi"
+  	},
+        {
+	    "title": "Données géographiques et administratives (BDGA)",
+	    "url": "/ws/bdga.fcgi"
+  	},
+        {
+	    "title": "Débit et niveau (ADN)",
+	    "url": "/ws/adnInternetV2.fcgi"
   	}
 
 
