@@ -75,7 +75,7 @@
       }
      },
      {
-       "title": "Hiver 2017-2018 : Stations météoroutière",
+       "title": "Hiver en cours : Stations météoroutière",
        "type": "wms",
        "optionsFromCapabilities": true,
       "visible": false,
@@ -90,6 +90,8 @@
            "feature_count":"365"
          }
        } ,
+       "queryFormat": "json",
+       "queryTitle": "Stations météoroutières, année en cours",
        "timeFilter": {
          "min": "2007-01-01",
          "max": "2020-01-01",
