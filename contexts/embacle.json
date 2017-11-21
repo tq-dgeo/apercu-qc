@@ -45,7 +45,6 @@
         }
       },
       "timeFilter": {
-	"style": "slider",
 	"step": 31536000000
 	} 
     },
@@ -65,6 +64,7 @@
       "timeFilter": {
 	"min": "1900-01-01",
 	"max": "2020-03-29",
+	"style": "calendar",
 	"range": true,
 	"type": "date"
 	} 
@@ -96,6 +96,21 @@
     },
     {
       "name": "timeAnalysis"
+    },    
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
+    },
+    {
+      "name": "print"
+    }
+
+  ]
+}
     },    
     {
       "name": "catalog",
