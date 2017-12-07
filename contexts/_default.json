@@ -6,7 +6,8 @@
       "projection": "EPSG:3857",
       "center": [-71.811360, 47.560696],
       "zoom": 7,
-      "maxZoom": 17
+      "maxZoom": 17,
+      "geolocate": false
     }
     },
     "layers": [
