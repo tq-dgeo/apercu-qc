@@ -14,6 +14,16 @@
       "title" : "OpenStreetMap",
       "type" : "osm",
       "baseLayer": true
+    },{
+      "title": "Thématique",
+      "baseLayer": true,
+      "visible" : false,
+      "opacity": 0.8,
+      "type": "xyz",
+      "source": {
+        "url": "/carto/tms/1.0.0/fond_thematique@EPSG_3857/{z}/{x}/{-y}.png",
+          "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a>"
+      }
     },
     {
       "title": "Carte routière ",
