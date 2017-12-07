@@ -15,9 +15,9 @@
     "type":"wmts",
      "source":{
         "url":"/carto/wmts",
- 	 "matrixSet":"EPSG_3857", 
+ 	 "matrixSet":"EPSG_3857",
           "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a> /  Fondé sur<a href='https://github.com/infra-geo-ouverte/igo2'> IGO2</a>",
-	"format":"image/jpeg", 
+	"format":"image/jpeg",
 	"layer":"carte_gouv_qc_ro"
         }
     },
@@ -58,6 +58,7 @@
     "searchResults",
     "contextManager",
     "mapDetails",
+    "shareMap",
     "timeAnalysis",
     "catalog",
     "print"
@@ -80,7 +81,10 @@
     },
     {
       "name": "timeAnalysis"
-    },    
+    },
+    {
+      "name": "shareMap"
+    },
     {
       "name": "catalog",
       "title": "Catalogue"
@@ -92,6 +96,5 @@
     {
       "name": "print"
     }
-
   ]
 }

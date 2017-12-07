@@ -175,6 +175,7 @@
     "searchResults",
     "contextManager",
     "mapDetails",
+    "shareMap",
     "timeAnalysis",
     "catalog",
     "print"
@@ -197,7 +198,10 @@
     },
     {
       "name": "timeAnalysis"
-    },    
+    },
+    {
+      "name": "shareMap"
+    },
     {
       "name": "catalog",
       "title": "Catalogue"

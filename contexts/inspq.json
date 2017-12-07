@@ -68,14 +68,15 @@
     "searchResults",
     "contextManager",
     "mapDetails",
+    "shareMap",
     "timeAnalysis",
     "catalog",
     "print"
   ],
   "tools": [
     {
-  	"name": "searchResults",
-      	"title": "Recherche"
+      "name": "searchResults",
+      "title": "Recherche"
     },
     {
       "name": "contextManager",
@@ -90,7 +91,10 @@
     },
     {
       "name": "timeAnalysis"
-    },    
+    },
+    {
+      "name": "shareMap"
+    },
     {
       "name": "catalog",
       "title": "Catalogue"
@@ -102,6 +106,5 @@
     {
       "name": "print"
     }
-
   ]
 }

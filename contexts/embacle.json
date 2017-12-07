@@ -46,7 +46,7 @@
       },
       "timeFilter": {
 	"step": 31536000000
-	} 
+	}
     },
     {
       "type": "wms",
@@ -67,20 +67,21 @@
 	"style": "calendar",
 	"range": true,
 	"type": "date"
-	} 
+	}
     }
   ],
   "toolbar": [
     "searchResults",
     "contextManager",
     "mapDetails",
+    "shareMap",
     "timeAnalysis",
     "catalog",
     "print"
   ],
   "tools": [
     {
-       "name": "searchResults",
+      "name": "searchResults",
       "title": "Recherche"
     },
     {
@@ -96,7 +97,10 @@
     },
     {
       "name": "timeAnalysis"
-    },    
+    },
+    {
+      "name": "shareMap"
+    },
     {
       "name": "catalog",
       "title": "Catalogue"
@@ -108,21 +112,5 @@
     {
       "name": "print"
     }
-
-  ]
-}
-    },    
-    {
-      "name": "catalog",
-      "title": "Catalogue"
-    },
-    {
-      "name": "catalogLayers",
-      "title": "Catalogue"
-    },
-    {
-      "name": "print"
-    }
-
   ]
 }

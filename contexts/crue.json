@@ -51,24 +51,40 @@
     "searchResults",
     "contextManager",
     "mapDetails",
+    "shareMap",
     "timeAnalysis",
+    "catalog",
     "print"
   ],
   "tools": [
     {
-      "name": "searchResults"
+      "name": "searchResults",
+      "title": "Recherche"
     },
     {
-      "name": "contextManager"
+      "name": "contextManager",
+      "title": "Vues"
     },
     {
       "name": "mapDetails",
+      "title": "Couches",
       "options": {
         "toggleLegendOnVisibilityChange": false
       }
     },
     {
       "name": "timeAnalysis"
+    },
+    {
+      "name": "shareMap"
+    },
+    {
+      "name": "catalog",
+      "title": "Catalogue"
+    },
+    {
+      "name": "catalogLayers",
+      "title": "Catalogue"
     },
     {
       "name": "print"

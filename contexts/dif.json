@@ -190,8 +190,8 @@
         "extern": true
     }
 	}
-	,	
-	
+	,
+
 	 {
       "title": "Carte des dépôts de surface du Nord québecois",
       "type": "wms",
@@ -209,13 +209,13 @@
         "extern": true
     }
 	}
-	,	
-	
+	,
+
     {
       "title": "Modèle numérique de terrain",
       "type": "wms",
       "optionsFromCapabilities": true,
-      "visible": false,   
+      "visible": false,
       "source": {
         "url": "/ws/mffpecofor.fcgi",
         "params": {
@@ -226,9 +226,9 @@
 	  "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/produits-derives-de-base-du-lidar",
         "extern": true
-      }   
+      }
     }
-	,		
+	,
     {
       "title": "Modèle numérique de terrain relief ombré",
       "type": "wms",
@@ -244,9 +244,9 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/produits-derives-de-base-du-lidar",
         "extern": true
-      }      
+      }
 	 }
-	,		
+	,
 {
       "title": "Modèle de hauteur de canopée",
       "type": "wms",
@@ -262,10 +262,10 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/produits-derives-de-base-du-lidar",
         "extern": true
-      }       
+      }
 	 }
-	,	
-	
+	,
+
 	{
       "title": "Pentes LiDAR",
       "type": "wms",
@@ -281,9 +281,9 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/produits-derives-de-base-du-lidar",
         "extern": true
-      }    
+      }
 	 }
-,	
+,
     {
       "title": "Carte dendrométrique LiDAR",
       "type": "wms",
@@ -305,7 +305,7 @@
         ,
 
 
-	
+
 	{
       "title": "Zone de végétation",
       "type": "wms",
@@ -321,12 +321,12 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
-		
-,	
 
-	
+,
+
+
 	{
       "title": "Sous-zone de végétation",
       "type": "wms",
@@ -342,10 +342,10 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
-		
-,	
+
+,
 
 	{
       "title": "Domaine bioclimatique",
@@ -362,10 +362,10 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
-		
-,	
+
+,
 
 	{
       "title": "Sous-domaine bioclimatique",
@@ -382,11 +382,11 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
-	 }	
-	
-,	
-	
+      }
+	 }
+
+,
+
 	{
       "title": "Région écologique",
       "type": "wms",
@@ -402,10 +402,10 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
-		
-,	
+
+,
 
 	{
       "title": "Sous-région écologique",
@@ -422,15 +422,15 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
 
 
-	
-,	
+
+,
 
 
-	
+
 	{
       "title": "Paysage régional",
       "type": "wms",
@@ -446,10 +446,10 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
-		
-,	
+
+,
 
 	{
       "title": "District écologique",
@@ -466,53 +466,55 @@
       "metadata": {
         "url": "https://www.donneesquebec.ca/recherche/fr/dataset/systeme-hierarchique-de-classification-ecologique-du-territoire",
         "extern": true
-      }    
+      }
 	 }
 
 
 
-	
+
 ]
 ,
-  "toolbar": [
-    "searchResults",
-    "contextManager",
-    "mapDetails",
-    "timeAnalysis",
-    "catalog",
-    "print"
-  ],
-  "tools": [
-    {
-      "name": "searchResults",
-      "title": "Recherche"
-    },
-    {
-      "name": "contextManager",
-      "title": "Vues"
-    },
-    {
-      "name": "mapDetails",
-      "title": "Couches",
-      "options": {
-        "toggleLegendOnVisibilityChange": false
-      }
-    },
-    {
-      "name": "timeAnalysis"
-    },    
-    {
-      "name": "catalog",
-      "title": "Catalogue"
-    },
-    {
-      "name": "catalogLayers",
-      "title": "Catalogue"
-    },
-    {
-      "name": "print"
+"toolbar": [
+  "searchResults",
+  "contextManager",
+  "mapDetails",
+  "shareMap",
+  "timeAnalysis",
+  "catalog",
+  "print"
+],
+"tools": [
+  {
+    "name": "searchResults",
+    "title": "Recherche"
+  },
+  {
+    "name": "contextManager",
+    "title": "Vues"
+  },
+  {
+    "name": "mapDetails",
+    "title": "Couches",
+    "options": {
+      "toggleLegendOnVisibilityChange": false
     }
-  ]
+  },
+  {
+    "name": "timeAnalysis"
+  },
+  {
+    "name": "shareMap"
+  },
+  {
+    "name": "catalog",
+    "title": "Catalogue"
+  },
+  {
+    "name": "catalogLayers",
+    "title": "Catalogue"
+  },
+  {
+    "name": "print"
+  }
+]
 }
-
-
