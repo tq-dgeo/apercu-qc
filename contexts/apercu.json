@@ -9,14 +9,58 @@
     }
     },
     "layers": [
-      {
-        "title": "Fond de carte du gouvernement du Qc",
-        "type": "xyz",
-        "source": {
-          "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png",
+     {
+      "title": "Route II",
+      "type": "xyz",
+      "visible" : true,
+      "baseLayer": false,
+      	"view": {
+	"maxResolution": 10
+	},
+      "source": {
+        "url": "/carto/tms/1.0.0/carte_gouv_qc_public@EPSG_3857/{z}/{x}/{-y}.png",
           "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a> /  Fondé sur<a href='https://github.com/infra-geo-ouverte/igo2'> IGO2</a>"
-        }
       }
+    },
+    {
+	"title": "Blanc",
+	"type": "xyz",
+	"baseLayer": true,
+	"visible": false,
+	"source": {
+	"url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII="
+	   }
+	},
+   {
+      "title": "Route",
+      "type": "xyz",
+      "visible" : true,
+      "baseLayer": true,
+      "source": {
+        "url": "/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png",
+          "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a> /  Fondé sur<a href='https://github.com/infra-geo-ouverte/igo2'> IGO2</a>"
+      }
+    },{
+      "title": "Couleur",
+      "baseLayer": true,
+      "visible" : false,
+      "opacity": 0.8,
+      "type": "xyz",
+      "source": {
+        "url": "/carto/tms/1.0.0/carte_adn@EPSG_3857/{z}/{x}/{-y}.png",
+          "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a>"
+      }
+    },{
+      "title": "Gris",
+      "baseLayer": true,
+      "visible" : false,
+      "opacity": 0.8,
+      "type": "xyz",
+      "source": {
+        "url": "/carto/tms/1.0.0/fond_thematique@EPSG_3857/{z}/{x}/{-y}.png",
+          "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a>"
+      }
+    }
   ],
   "toolbar": [
     "searchResults",

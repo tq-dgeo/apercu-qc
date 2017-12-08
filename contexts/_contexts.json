@@ -8,32 +8,28 @@
     "title": "Données en vedette"
   },
   {
-    "uri": "inondation",
-    "title": "Inondations 2017"
+    "uri": "avp",
+    "title": "Alerte et vigilance"
   },
   {
     "uri": "dif",
     "title": "Inventaire forestier"
   },
   {
-    "uri": "qc911",
-    "title": "Qc-911"
+    "uri": "inondation",
+    "title": "Inondations 2017"
   },
   {
-    "uri": "crue",
-    "title": "Surveillance des crues"
+    "uri": "mtq",
+    "title": "Transports Québec"
   },
   {
     "uri": "embacle",
     "title": "Embâcle (analyse temporelle)"
   },
   {
-    "uri": "education",
-    "title": "Éducation"
-  },
-  {
-    "uri": "mtq",
-    "title": "Transports Québec"
+    "uri": "qc911",
+    "title": "Qc-911"
   },
   {
     "uri": "inspq",
@@ -42,5 +38,13 @@
   {
     "uri": "cptaq",
     "title": "Agriculture"
+  },
+  {
+    "uri": "crue",
+    "title": "Surveillance des crues"
+  },
+  {
+    "uri": "education",
+    "title": "Éducation"
   }
 ]

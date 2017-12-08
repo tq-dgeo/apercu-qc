@@ -12,7 +12,7 @@
     },
     "layers": [
       {
-      "title": "Routes",
+      "title": "Route II",
       "type": "xyz",
       "visible" : true,
       "baseLayer": false,
@@ -25,7 +25,7 @@
       }
     },
     {
-	"title": "Fond blanc",
+	"title": "Blanc",
 	"type": "xyz",
 	"baseLayer": true,
 	"visible": false,
@@ -34,7 +34,7 @@
 	   }
 	},
    {
-      "title": "Carte routière",
+      "title": "Route",
       "type": "xyz",
       "visible" : true,
       "baseLayer": true,
@@ -43,7 +43,7 @@
           "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a> /  Fondé sur<a href='https://github.com/infra-geo-ouverte/igo2'> IGO2</a>"
       }
     },{
-      "title": "Route 2",
+      "title": "Couleur",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
@@ -53,7 +53,7 @@
           "attributions": "  © <a href='https://www.droitauteur.gouv.qc.ca/copyright.php'><img src='/gouvouvert/public/images/quebec/gouv_qc_logo.png' width='64' height='14'>Gouvernement du Québec</a>"
       }
     },{
-      "title": "Thématique",
+      "title": "Gris",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
