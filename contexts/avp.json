@@ -72,7 +72,7 @@
           "extern": true
       },
       "source": {
-        "url": "/ws/interne_bdga.fcgi",
+        "url": "/ws/bdga.fcgi",
 
         "params": {
           "layers": "bdga_regio_s_poly_1m",
@@ -89,7 +89,7 @@
           "extern": true
       },
       "source": {
-        "url": "/ws/interne_adnInternetV2.fcgi",
+        "url": "/ws/adnInternetV2.fcgi",
         "params": {
           "layers": "OURAGAN",
           "version": "1.3.0"
@@ -105,7 +105,7 @@
           "extern": true
       },
       "source": {
-        "url": "/ws/interne_adnInternetV2.fcgi",
+        "url": "/ws/adnInternetV2.fcgi",
         "params": {
           "layers": "nexrad_base_reflect",
           "version": "1.3.0"
@@ -121,7 +121,7 @@
           "extern": true
       },
       "source": {
-        "url": "/ws/interne_adnInternetV2.fcgi",
+        "url": "/ws/adnInternetV2.fcgi",
         "params": {
           "layers": "RADAR.2KM_L1",
           "version": "1.3.0"
@@ -151,7 +151,7 @@
           "extern": true
       },
       "source": {
-        "url": "/ws/interne_adnInternetV2.fcgi",
+        "url": "/ws/adnInternetV2.fcgi",
         "params": {
           "layers": "mps_cehq_apt_verticaux_fil_actu",
           "version": "1.3.0"
