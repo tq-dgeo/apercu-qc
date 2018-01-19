@@ -26,7 +26,6 @@
     },
     {
 	"title": "Blanc",
-	"id":"blanc",
 	"type": "xyz",
 	"baseLayer": true,
 	"visible": false,
@@ -36,7 +35,6 @@
 	},
    {
       "title": "Route",
-	   "id":"fondcarto",
       "type": "xyz",
       "visible" : true,
       "baseLayer": true,
@@ -46,7 +44,6 @@
       }
     },{
       "title": "Couleur",
-	 "id":"couleur",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
@@ -57,7 +54,6 @@
       }
     },{
       "title": "Gris",
-	    "id":"gris",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
