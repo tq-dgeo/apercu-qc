@@ -12,6 +12,7 @@
   "layers": [
   {
       "title": "Route II",
+	"id":"routeii",
       "type": "xyz",
       "visible" : true,
       "baseLayer": false,
@@ -25,6 +26,7 @@
     },
     {
 	"title": "Blanc",
+	"id":"blanc",
 	"type": "xyz",
 	"baseLayer": true,
 	"visible": false,
@@ -34,6 +36,7 @@
 	},
    {
       "title": "Route",
+	   "id":"fondcarto",
       "type": "xyz",
       "visible" : true,
       "baseLayer": true,
@@ -43,6 +46,7 @@
       }
     },{
       "title": "Couleur",
+	 "id":"couleur",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
@@ -53,6 +57,7 @@
       }
     },{
       "title": "Gris",
+	    "id":"gris",
       "baseLayer": true,
       "visible" : false,
       "opacity": 0.8,
@@ -407,7 +412,7 @@
 
     } ,
     {
-      "title": "Direction générale des territoires",
+      "title": "Sous-ministériat aux territoires",
       "id" : "bgr_v_dirct_genrl_geomt_act",
       "type": "wms",
       "optionsFromCapabilities": true,
@@ -425,7 +430,7 @@
 
     } ,
     {
-      "title": "Direction territoriale",
+      "title": "Directions générales",
       "id" : "bgr_v_dirct_terrt_geomt_act",
       "type": "wms",
       "optionsFromCapabilities": true,
